@@ -7,6 +7,7 @@
 - [ ] (Intro to Machine Learning)[https://eu.udacity.com/course/intro-to-machine-learning--ud120]
 - [ ] (Intro to Artificial Intelligence)[https://eu.udacity.com/course/intro-to-artificial-intelligence--cs271]
 - [ ] (Artificial Intelligence byGeorgia Institute of Technology)[https://eu.udacity.com/course/artificial-intelligence--ud954]
+- [ ] (Deep learning)[https://eu.udacity.com/course/deep-learning--ud730]
 
 - [ ] (Deep Learning World) [https://github.com/astorfi/Deep-Learning-World] 
 - [ ] (Hands on ML)[https://github.com/ageron/handson-ml]
