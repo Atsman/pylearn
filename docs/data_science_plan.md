@@ -1,9 +1,9 @@
-# Education plan
+# Data science education plan
 
-- [ ] (Intro to Data Analysis)[https://classroom.udacity.com/courses/ud170]
+- [X] (Intro to Data Analysis)[https://classroom.udacity.com/courses/ud170]
   - [X] Data analyses process. Students data analyses.
   - [X] NumPy and Pandas for 1D Data
-  - [ ] NumPy and Pandas for 2D Data
+  - [X] NumPy and Pandas for 2D Data
 
 - [ ] (Intro to Data Science)[https://classroom.udacity.com/courses/ud359]
 - [ ] (Intro to Statistics)[https://classroom.udacity.com/courses/st101]
