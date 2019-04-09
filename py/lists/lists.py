@@ -24,10 +24,10 @@ def sum(xs):
 def median(xs):
     xs.sort()
 
-    l = len(xs) - 1
+    length = len(xs) - 1
 
-    middle = l // 2
-    is_even = l % 2
+    middle = length // 2
+    is_even = length % 2
 
     if is_even:
         return (xs[middle] + xs[middle + 1]) / 2
