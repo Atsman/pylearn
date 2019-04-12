@@ -24,13 +24,9 @@ class LinkedList:
             prev = current
             current = current.next
             
-        if pos != position:
-            raise Exception("Ll last index: {}, but {} needed".format(pos, position))
-            
         prev.next = new_node
         new_node.next = current
             
-        
     def prepend(self, value):
         self.insert(value, 0)
     
