@@ -1,6 +1,7 @@
 import unittest
 from linked_list import LinkedList, Node
 
+
 class TestLinkedList(unittest.TestCase):
     def test_constructor(self):
         ll = LinkedList()

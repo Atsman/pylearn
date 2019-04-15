@@ -14,4 +14,3 @@ def nth_node_from_end(ll, n):
         head = head.next
 
     return ptr.value
-

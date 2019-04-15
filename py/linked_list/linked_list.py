@@ -68,6 +68,12 @@ class LinkedList:
             current = current.next
             
         return current
+
+    def iterator(self):
+        current_node = self.head
+        while current_node:
+            yield current_node
+            current_node = current_node.next
         
     def length(self):
         count = 0
@@ -84,3 +90,13 @@ class LinkedList:
             res.append(current.value)
             current = current.next
         return res
+
+
+def from_array_list(array_list):
+    ll = LinkedList()
+    ll.head = Node(array_list[0])
+    current_node = ll.head
+    for i in range(1, len(array_list)):
+        current_node.next = Node(array_list[i])
+        current_node = current_node.next
+    return ll

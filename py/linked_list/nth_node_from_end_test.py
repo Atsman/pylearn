@@ -1,9 +1,9 @@
 import unittest
 from linked_list import LinkedList
-from tasks import nth_node_from_end
+from nth_node_from_end import nth_node_from_end
 
 
-class TestTasks(unittest.TestCase):
+class TestNthFromEnd(unittest.TestCase):
     def test_nth_from_end(self):
         ll = LinkedList()
 
