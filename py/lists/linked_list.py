@@ -1,4 +1,15 @@
+"""
+LinkedList ADT implementation.
+"""
+
+
 class Node:
+    """
+    Node represents Node ADT in LinkedList.
+
+    Usage:
+    Node(value)
+    """
     def __init__(self, value):
         self.value = value
         self.next = None
@@ -94,6 +105,10 @@ class LinkedList:
 
 def from_array_list(array_list):
     ll = LinkedList()
+
+    if len(array_list) == 0:
+        return ll
+
     ll.head = Node(array_list[0])
     current_node = ll.head
     for i in range(1, len(array_list)):

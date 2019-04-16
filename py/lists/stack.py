@@ -1,6 +1,8 @@
-# Implement stack using LL
+"""
+Implement stack using LinkedList.
+"""
 
-from linked_list import LinkedList
+from lists.linked_list import LinkedList
 
 
 class Stack:

@@ -1,6 +1,6 @@
 import unittest
-from linked_list import LinkedList, from_array_list
-from insert_sorted import insert_sorted
+from lists.linked_list import LinkedList, from_array_list
+from lists.insert_sorted import insert_sorted
 
 
 class TestInsertSorted(unittest.TestCase):

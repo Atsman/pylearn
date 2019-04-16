@@ -1,7 +1,14 @@
-from linked_list import Node
+from lists.linked_list import Node
 
 
 def insert_sorted(ll, value):
+    """
+    Insert element in sorted linked list.
+    Find position and replace pointers.
+    
+    Time complexity: O(N)
+    Space complexity: O(1)
+    """
     insert_node = Node(value)
     current_node = ll.head
 
