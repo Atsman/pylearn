@@ -1,17 +1,17 @@
-import unittest 
+import unittest
 from lists.linked_list import LinkedList
 from lists.test_utils import simple_list, cycle_list, random_cycle_list
 from lists.has_cycle import has_cycle_bruteforce, has_cycle_hash_table, \
     has_cycle_two_pointers, find_cycle_head, find_cycle_length
-
 
 LIST_SIZE = 10
 
 
 class TestHasCycleList(unittest.TestCase):
     def setUp(self):
-        self.methods = [has_cycle_bruteforce, has_cycle_hash_table,
-                        has_cycle_two_pointers]
+        self.methods = [
+            has_cycle_bruteforce, has_cycle_hash_table, has_cycle_two_pointers
+        ]
 
     def test_has_cycle_list(self):
         for method in self.methods:
@@ -19,7 +19,7 @@ class TestHasCycleList(unittest.TestCase):
             self.assertFalse(method(ll.head), method.__name__)
 
             ll = simple_list(LIST_SIZE)
-            self.assertFalse(method(ll.head), method.__name__) 
+            self.assertFalse(method(ll.head), method.__name__)
 
             cll = cycle_list(LIST_SIZE)
             self.assertTrue(method(cll.head), method.__name__)

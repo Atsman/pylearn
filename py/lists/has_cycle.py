@@ -108,7 +108,7 @@ def find_cycle_length(head):
 
     if not has_cycle:
         return 0
-    
+
     count = 0
     while sp and fp and fp.next:
         sp = sp.next

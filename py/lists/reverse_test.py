@@ -3,11 +3,10 @@ from lists.linked_list import from_array_list
 from lists.reverse import reverse_iterative, reverse_recursive
 
 
-methods = [reverse_iterative, reverse_recursive]
-
-
 class TestReverseLinkedList(unittest.TestCase):
     def test_reverse(self):
+        methods = [reverse_iterative, reverse_recursive]
+
         for method in methods:
             ll1 = from_array_list([])
             ll1.head = method(ll1.head)

@@ -13,7 +13,15 @@ Notes and solutions to renew computer science knowledge.
 
 | Problem                                                                  | Test         | Solved  |
 |--------------------------------------------------------------------------|:------------:|:-------:|
-| [Compute parity][3]                                                      | [tests][3x]  |    X    |
+| [Compute parity]                                                         | [tests]      |    ✓    |
+
+ 
+## Arrays and String
+
+| Problem                                                                  | Test         | Solved  |
+|--------------------------------------------------------------------------|:------------:|:-------:|
+| [Rearrange values]                                                       | [tests]      |    ✓    |
+
 
 ## Linked List
 
@@ -22,7 +30,8 @@ Notes and solutions to renew computer science knowledge.
 | [Find nth from the end][4]                                               | [tests][4x]  |    ✓    |
 | [Has cycle, cycle length, cycle head][5]                                 | [tests][5x]  |    ✓    |
 | [Reverse single linked list][6]                                          | [tests][6x]  |    ✓    |
-
+| [Reverse single linked list][6]                                          | [tests][6x]  |    ✓    |
+| [Merge two sorted lists]                                                 | [tests]      |    X    |
 
 
 [1]: https://www.goodreads.com/book/show/25707092-cracking-the-coding-interviewhttp://elementsofprogramminginterviews.com

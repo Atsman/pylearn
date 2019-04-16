@@ -10,6 +10,7 @@ class Node:
     Usage:
     Node(value)
     """
+
     def __init__(self, value):
         self.value = value
         self.next = None
@@ -18,15 +19,15 @@ class Node:
 class LinkedList:
     def __init__(self):
         self.head = None
-        
+
     def insert(self, value, position):
         new_node = Node(value)
-        
+
         if position == 0:
             new_node.next = self.head
             self.head = new_node
             return
-        
+
         pos = 0
         prev = None
         current = self.head
@@ -34,20 +35,20 @@ class LinkedList:
             pos += 1
             prev = current
             current = current.next
-            
+
         prev.next = new_node
         new_node.next = current
-            
+
     def prepend(self, value):
         self.insert(value, 0)
-    
+
     def append(self, value):
         new_node = Node(value)
-        
+
         if not self.head:
             self.head = new_node
             return
-            
+
         last_node = self.last()
         last_node.next = new_node
 
@@ -68,16 +69,16 @@ class LinkedList:
             current = current.next
 
         return current
-        
+
     def last(self):
         current = self.head
-        
+
         if not current:
             return None
-        
+
         while current.next:
             current = current.next
-            
+
         return current
 
     def iterator(self):
@@ -85,7 +86,7 @@ class LinkedList:
         while current_node:
             yield current_node
             current_node = current_node.next
-        
+
     def length(self):
         count = 0
         current = self.head

@@ -5,7 +5,7 @@ def insert_sorted(ll, value):
     """
     Insert element in sorted linked list.
     Find position and replace pointers.
-    
+
     Time complexity: O(N)
     Space complexity: O(1)
     """
@@ -20,7 +20,7 @@ def insert_sorted(ll, value):
         next_node = current_node.next
 
         if not next_node:
-            current_node.next = insert_node 
+            current_node.next = insert_node
             return
 
         if value > current_node.value and value < next_node.value:

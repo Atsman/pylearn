@@ -35,7 +35,7 @@ def reverse_recursive(head):
 
     second = head.next
     head.next = None
-    reversedRest = reverse_recursive(second)  # reverse from second
+    reversed_rest = reverse_recursive(second)  # reverse from second
     second.next = head  # join lists
 
-    return reversedRest
+    return reversed_rest

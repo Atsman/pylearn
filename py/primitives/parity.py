@@ -13,8 +13,8 @@ def parity_bruteforce(x):
 
     if count % 2 != 0:
         return 1
-    else:
-        return 0
+
+    return 0
 
 
 def parity_xor(x):
