@@ -18,6 +18,12 @@ def parity_bruteforce(x):
 
 
 def parity_xor(x):
+    """
+    Returns 1 if the number of bits set to 1 in x is odd, otherwise 0.
+
+    Time complexity O(K) where K is the number of bits in x set to 1.
+    Space compexitu O(1)
+    """
     result = 0
     while x:
         result ^= x & 1
