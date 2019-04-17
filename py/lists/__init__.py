@@ -1,3 +1,3 @@
 """
-Package lists implements solutions for the problems related to LinkedLists
+Package lists implements solutions for problems related to LinkedLists
 """
