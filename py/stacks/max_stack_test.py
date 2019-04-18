@@ -1,5 +1,5 @@
 import unittest
-from stacks.stack import Stack
+from stacks.max_stack import Stack
 
 
 class TestMaxStack(unittest.TestCase):
