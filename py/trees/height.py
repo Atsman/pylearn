@@ -1,8 +1,8 @@
-def height(tree, i=0):
-    if not tree:
+def height(node, i=0):
+    if not node:
         return i
 
-    left_height = height(tree.left, i)
-    right_height = height(tree.right, i)
+    left_height = height(node.left, i)
+    right_height = height(node.right, i)
 
     return max(left_height, right_height) + 1

@@ -10,5 +10,8 @@ class TestHeight(unittest.TestCase):
         bt = BinaryTree()
         bt.left = BinaryTree()
         bt.left.left = BinaryTree()
+        bt.right = BinaryTree()
+        bt.right.right = BinaryTree()
+        bt.right.right.right = BinaryTree()
 
-        self.assertEqual(3, height(bt))
+        self.assertEqual(4, height(bt))
