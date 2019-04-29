@@ -5,6 +5,12 @@ sequence is odd; otherwise, it is 0.
 
 
 def parity_bruteforce(x):
+    """
+    Returns 1 if the number of bits set to 1 in x is odd, otherwise 0.
+
+    Time complexity O(N)
+    Space complexity O(1)
+    """
     bx = bin(x)
     count = 0
     for x in bx[2:]:
@@ -22,7 +28,7 @@ def parity_xor(x):
     Returns 1 if the number of bits set to 1 in x is odd, otherwise 0.
 
     Time complexity O(K) where K is the number of bits in x set to 1.
-    Space compexitu O(1)
+    Space compexity O(1)
     """
     result = 0
     while x:

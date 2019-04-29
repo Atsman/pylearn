@@ -1,4 +1,9 @@
 def is_balanced(node):
+    """
+    A binary tree is called balanced if for each node
+    in the tree, the difference in the height if its
+    left and right subtrees is at most one.
+    """
     if not node:
         return 0
 

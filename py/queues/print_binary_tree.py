@@ -7,6 +7,9 @@ def print_binary_tree(tree):
     Given the root of binary tree, converts it 
     to array, so that all elements are in order
     of their level.
+
+    Time complexity: O(N)
+    Space complexity: O(N)
     """
     queue = Queue()
     queue.enqueue(tree)

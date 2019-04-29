@@ -7,6 +7,9 @@ def run_length_encoding(text):
     count and the character.
 
     Example: aaaaabbcccaa -> 4a2b3c2a
+
+    Time complexity: O(N)
+    Space complexity: O(N)
     """
 
     current_ch = text[0]
@@ -18,7 +21,7 @@ def run_length_encoding(text):
             buf.append(current_ch)
             count = 0
             current_ch = ch
-            
+
         count += 1
 
     buf.append(str(count))

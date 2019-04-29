@@ -63,6 +63,7 @@ Notes and solutions to renew computer science knowledge.
 | Problem                                                                  | Test         | Solved  |
 |--------------------------------------------------------------------------|:------------:|:-------:|
 | [Is balanced?][16]                                                       | [tests][16x] |    -    |
+| [Height?][17]                                                            | [tests][17x] |    -    |
 
 
 [1]: https://www.goodreads.com/book/show/25707092-cracking-the-coding-interviewhttp://elementsofprogramminginterviews.com
@@ -95,3 +96,5 @@ Notes and solutions to renew computer science knowledge.
 [15x]: ./py/queues/print_binary_tree_test.py
 [16]: ./py/trees/balanced.py
 [16x]: ./py/trees/balanced_test.py
+[17]: ./py/trees/height.py
+[17x]: ./py/trees/height_test.py
