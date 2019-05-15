@@ -62,8 +62,8 @@ Notes and solutions to renew computer science knowledge.
 
 | Problem                                                                  | Test         | Solved  |
 |--------------------------------------------------------------------------|:------------:|:-------:|
-| [Is balanced?][16]                                                       | [tests][16x] |    -    |
-| [Height?][17]                                                            | [tests][17x] |    -    |
+| [Is balanced?][16]                                                       | [tests][16x] |    +    |
+| [Height?][17]                                                            | [tests][17x] |    +    |
 
 
 [1]: https://www.goodreads.com/book/show/25707092-cracking-the-coding-interviewhttp://elementsofprogramminginterviews.com
